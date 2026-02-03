@@ -28,6 +28,21 @@ export const metadata: Metadata = {
   title: "El Brasero - Auténtica Carne Asada Artesanal",
   description: "Tradición mexicana al fuego de leña. Los mejores cortes, asados a la perfección en Monterrey desde 1987.",
   keywords: ["asador", "carne asada", "monterrey", "parrilla", "brasero", "cortes premium"],
+  manifest: "/manifest.json",
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#f1730c",
+  openGraph: {
+    title: "El Brasero - Auténtica Carne Asada Artesanal",
+    description: "Tradición mexicana al fuego de leña. Los mejores cortes, asados a la perfección en Monterrey desde 1987.",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "El Brasero - Carne Asada Artesanal",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

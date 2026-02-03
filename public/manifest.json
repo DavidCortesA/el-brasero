@@ -1,0 +1,21 @@
+{
+  "name": "El Brasero - Auténtica Carne Asada Artesanal",
+  "short_name": "El Brasero",
+  "description": "Tradición mexicana al fuego de leña. Los mejores cortes, asados a la perfección en Monterrey desde 1987.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fef7ee",
+  "theme_color": "#f1730c",
+  "icons": [
+    {
+      "src": "/icon/el-brasero.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/el-brasero.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
